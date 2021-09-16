@@ -8,12 +8,12 @@
 </head>
 <body>
     <h1>Welcome to gitPub</h1>
-    <h2>Drinks index page</h2>
+    <h2>Food index page</h2>
     <ul>
-        <% for(let i=0; i< allDrinks.length; i++){ %>
-        <% allDrinks[i].name.charAt(0).toUpperCase() %>    
+        <% for(let i=0; i< allFood.length; i++){ %>
+        <% allFood[i].name.charAt(0).toUpperCase() %>    
         <li>
-            <a href='/drinks/<%=i%>'><%=allDrinks[i].name %></a>
+            <a href='/food/<%=i%>'><%=allFood[i].name %></a>
         </li>
         
        <% } %>
